@@ -20,3 +20,48 @@ img {
     height: 20px;
     
 }
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: beige;
+}
+main{
+    width: 100%;
+    height: 500px;
+    background-color:rgb(244, 251, 252);
+}
+main .divizquierda{
+    
+    padding: 10px 10px;
+    width:75% ;
+
+}
+main .dividerecha{
+    
+    padding: 10px 10px 10px 1000px;
+    
+}
+.btn{
+    text-decoration: none;
+    padding: 4px 10px;
+   font-family: arial;
+   border-radius: 4px;
+  
+}
+
+
+.bnt-blanco{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(222, 215, 215, 0.763);
+}
+#btndep{
+    padding: 8px 12px;
+}
+.bnt-morado{
+    background-color: rgb(127, 86, 217);
+    color: white;
+    border: 1px solid rgba(222, 215, 215, 0.763);
+    padding: 8px 12px;
+}
