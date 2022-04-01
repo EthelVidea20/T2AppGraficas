@@ -7,4 +7,16 @@ header {
     width: 100%;
     height: 50px;
     background-color: beige;
+    
+}
+figure {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 5px;
+}
+img {
+    width: 20px;
+    height: 20px;
+    
 }
