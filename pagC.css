@@ -8,3 +8,15 @@ header {
     height: 50px;
     background-color: beige;
 }
+.btn{
+    text-decoration: none;
+    padding: 5px 10px;
+   font-family: arial;
+   border-radius: 4px;
+   
+}
+.bnt-blanco{
+    background-color: white;
+    color: rosybrown;
+    border: 1px solid white;
+}
