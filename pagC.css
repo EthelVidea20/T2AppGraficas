@@ -6,7 +6,65 @@
 header {
     width: 100%;
     height: 50px;
-    background-color: beige;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+header .div_header_izquierda {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+header .div_header_derecha {
+    height: 100%;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+header figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+header .div_header_izquierda figure {
+    background-color: rgb(213, 213, 213);
+}
+header img {
+    width: 25px;
+    height: 25px;
+}
+header .div_header_izquierda > p {
+    padding-left: 5px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+header .div_header_izquierda nav ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+header .div_header_izquierda nav ul li {
+    color: gray;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+header .div_header_izquierda nav ul :hover {
+    background-color: #F9F5FF;
+    color: #6941C6;
+}
+
+header .div_header_derecha figure #usuario {
+    width: 30px;
+    height: 30px;
 }
 
 main{
