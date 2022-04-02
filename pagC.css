@@ -160,14 +160,91 @@ main .dividerecha{
 }
 #sec_tarjetas {
     height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+#div_divisionTarjetas {
+    display: flex;
 }
 #div_tarjeta1 {
-    background-color: #344054;
+    background: linear-gradient(90deg, #344054 75%, #F4D9D0 25%);
     border-radius: 20px;
     height: 200px;
     width: 400px;
 }
+#div_tarjeta2 {
+    margin-left: 20px;
+    background: linear-gradient(180deg, #ababab5b 50%, #344054 50%);
+    border-radius: 20px;
+    height: 200px;
+    width: 400px;
+}
+#div_tarjeta1 p {
+    color: white;
+}
+#div_tarjeta2 p {
+    color: white;
+}
+#div_tarjeta2 .tituloTarjeta {
+    color: black;
+}
 
+.tituloTarjeta {
+    font-size: 22px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.nombreTarjeta {
+    font-size: 18px;
+    position: relative;
+    top: 60px;
+    left: 10px;
+}
+.expiracionTarjeta {
+    font-size: 18px;
+    position: relative;
+    top: 35px;
+    left: 230px;
+}
+.numeroTarjeta {
+    font-size: 22px;
+    position: relative;
+    top: 55px;
+    left: 10px;
+}
+.figureTarjeta {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 340px;
+    top: 0px;
+}
+.imgTarjeta {
+    width: 100%;
+    height: 100%;
+}
+.circuloTarjeta {
+    position: relative;
+    top: 25px;
+    left: 330px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background: linear-gradient(transparent 5%,white 100%);
+    transform: rotate(90deg);
+}
+.circuloTarjeta2 {
+    position: relative;
+    top: -5px;
+    left: 350px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background: linear-gradient(transparent 5%,white 100%);
+    transform: rotate(120deg);
+
+}
 #sec_depositos {
     width: 35%;
     height: 100% - 14px;
