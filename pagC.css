@@ -106,3 +106,61 @@ main .dividerecha{
     border: 1px solid rgba(222, 215, 215, 0.763);
     padding: 8px 12px;
 }
+#ladoInferior {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100% - 100px;
+    height: 600px;
+    display: flex;
+    margin: 0px 50px 0px 50px;
+}
+
+#ladoIzquierdo {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+.seccion {
+    background-color: white;
+    border-color: rgb(204, 204, 204);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 10px;
+}
+#sec_balanceEnTiempo {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+.titulosBandejas{
+    font-size: 22px;
+    font-weight: 500;
+}
+#sec_balanceEnTiempo figure {
+    width: 100%;
+}
+#sec_balanceEnTiempo figure img {
+    width: 100%;
+}
+#sec_balanceEnTiempo ul {
+    list-style: none;
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+}
+#sec_tarjetas {
+    height: 100%;
+}
+#div_tarjeta1 {
+    background-color: #344054;
+    border-radius: 20px;
+    height: 200px;
+    width: 400px;
+}
+
+#sec_depositos {
+    width: 35%;
+    height: 100% - 14px;
+}
